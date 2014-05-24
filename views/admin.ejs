@@ -1,0 +1,33 @@
+<html>
+	<head>
+		<script type="text/javascript" src="/js/jquery-1.11.1.min.js"></script>
+                <link rel="stylesheet" href="/stylesheets/style.css" />
+	</head>
+	<body>
+		<center><h2>ADMIN PANEL</h2></center>
+		<table>
+
+			<tr>
+				<td>
+				<h4>Fan State</h4>
+				</td>
+				<td>
+					<h4><%= city %> AQI:</h4>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<form name="input" method="get">
+						<input id="sendPulseButton" 						<input id="sendPulseButton"  type="submit" name="sendPulse" value="ON"></input>
+ type="submit" name="sendPulse" value="ON"></input>
+						<input id="sendPulseButton" 						<input id="sendPulseButton"  type="submit" name="sendPulse" value="ON"></input>
+ type="submit" name="sendPulse" value="OFF"></input>
+					</form>
+				</td>
+				<td>
+					<%= aqi %>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

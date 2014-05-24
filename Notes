@@ -1,0 +1,16 @@
+Notes
+
+THE SOURCE
+	Github Repository
+	server.js
+	Python scripts to interact with infrared
+THE DEVICE
+	Raspberry Pi Connected via wire to Router
+	Ubuntu Distribution - On SD Card
+	Node.js Server
+	MDNS connection reach device server
+THE CODE
+	AQI web lookup
+	Infrared Data signal sender
+	Python interoperation
+	
